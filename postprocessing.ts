@@ -5,7 +5,7 @@ import {
 } from "https://deno.land/x/flat@0.0.14/mod.ts";
 import { cheerio } from "https://deno.land/x/cheerio@1.0.4/mod.ts";
 
-const outputFilename = "./data.json";
+const outputFilename = Deno.args[0].split(".")[0] + ".json";
 const inputFileName = Deno.args[0];
 
 try {
@@ -29,9 +29,13 @@ try {
       const dateFormatted = new Date($(left).text())
         .toISOString()
         .split("T")[0];
+
+      const divisor = value.includes("%") ? 100 : 1;
+      const valueFormatted =
+        parseFloat(value.replace(",", "").replace("%", "")) / divisor;
       return {
         date: dateFormatted,
-        value: parseFloat(value),
+        value: valueFormatted,
         note,
       };
     })

@@ -17,9 +17,21 @@ jobs:
           deno-version: v1.10.x
       - name: Check out repo
         uses: actions/checkout@v2
-      - name: Fetch data
+      - name: Fetch data (s-p-500-pe)
         uses: githubocto/flat@v3
         with:
           http_url: https://www.multpl.com/s-p-500-pe-ratio/table/by-month
-          downloaded_filename: spx-pe.html
+          downloaded_filename: s-p-500-pe-by-month.html
+          postprocess: ./postprocessing.ts
+      - name: Fetch data (shiller-pe)
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://www.multpl.com/shiller-pe/table/by-month
+          downloaded_filename: shiller-pe-by-month.html
+          postprocess: ./postprocessing.ts
+      - name: Fetch data (10-year-treasury-rate/table/by-month)
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://www.multpl.com/10-year-treasury-rate/table/by-month
+          downloaded_filename: 10-year-treasury-by-month.html
           postprocess: ./postprocessing.ts
