@@ -39,7 +39,7 @@ try {
 
   console.log("Successfully processed", data.length, "rows.");
 
-  await writeJSON(outputFilename, data);
+  await writeJSON(outputFilename, data, null, 2);
   await removeFile(inputFileName);
 } catch (error) {
   console.log(error);
