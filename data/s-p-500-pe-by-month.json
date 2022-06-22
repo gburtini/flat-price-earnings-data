@@ -1,12 +1,17 @@
 [
   {
-    "date": "2022-06-15",
+    "date": "2022-06-22",
+    "value": 19.15,
+    "note": "estimate"
+  },
+  {
+    "date": "2022-06-01",
     "value": 19.15,
     "note": "estimate"
   },
   {
     "date": "2022-05-01",
-    "value": 21.1,
+    "value": 20.42,
     "note": "estimate"
   },
   {
