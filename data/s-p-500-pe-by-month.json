@@ -1,38 +1,78 @@
 [
   {
-    "date": "2022-10-07",
-    "value": 18.39,
+    "date": "2023-05-26",
+    "value": 24.34,
     "note": "estimate"
+  },
+  {
+    "date": "2023-05-01",
+    "value": 24.2,
+    "note": "estimate"
+  },
+  {
+    "date": "2023-04-01",
+    "value": 23.86,
+    "note": "estimate"
+  },
+  {
+    "date": "2023-03-01",
+    "value": 22.97,
+    "note": "estimate"
+  },
+  {
+    "date": "2023-02-01",
+    "value": 23.62,
+    "note": "estimate"
+  },
+  {
+    "date": "2023-01-01",
+    "value": 22.93,
+    "note": "estimate"
+  },
+  {
+    "date": "2022-12-01",
+    "value": 22.65,
+    "note": ""
+  },
+  {
+    "date": "2022-11-01",
+    "value": 22.07,
+    "note": ""
+  },
+  {
+    "date": "2022-10-01",
+    "value": 20.44,
+    "note": ""
   },
   {
     "date": "2022-09-01",
-    "value": 19.94,
-    "note": "estimate"
+    "value": 20.58,
+    "note": ""
   },
   {
     "date": "2022-08-01",
-    "value": 21.01,
-    "note": "estimate"
+    "value": 22.03,
+    "note": ""
   },
   {
     "date": "2022-07-01",
-    "value": 19.77,
-    "note": "estimate"
+    "value": 20.53,
+    "note": ""
   },
   {
     "date": "2022-06-01",
-    "value": 19.7,
-    "note": "estimate"
+    "value": 20.28,
+    "note": ""
   },
   {
     "date": "2022-05-01",
-    "value": 20.42,
-    "note": "estimate"
+    "value": 20.81,
+    "note": ""
   },
   {
     "date": "2022-04-01",
-    "value": 22.19,
-    "note": "estimate"
+    "value": 22.4,
+    "note": ""
   },
   {
     "date": "2022-03-01",
