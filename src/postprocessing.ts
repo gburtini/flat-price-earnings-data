@@ -4,9 +4,7 @@ import {
   removeFile,
 } from "https://deno.land/x/flat@0.0.15/mod.ts";
 
-// temporary fix until 1.0.5 is published: https://github.com/Bestulo/deno-cheerio/issues/5
-import { cheerio, CheerioAPI } from "https://raw.githubusercontent.com/Bestulo/deno-cheerio/main/mod.ts";
-// import { cheerio } from  "https://deno.land/x/cheerio@1.0.4/mod.ts"
+import { cheerio, CheerioAPI } from "https://deno.land/x/cheerio@1.0.7/mod.ts";
 
 const outputFilename = Deno.args[0].split(".")[0] + ".json";
 const inputFileName = Deno.args[0];
