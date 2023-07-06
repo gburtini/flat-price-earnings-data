@@ -1,23 +1,28 @@
 [
   {
-    "date": "2023-07-03",
-    "value": 0.015300000000000001,
+    "date": "2023-07-05",
+    "value": 0.0155,
+    "note": "estimate"
+  },
+  {
+    "date": "2023-07-31",
+    "value": 0.0154,
     "note": "estimate"
   },
   {
     "date": "2023-06-30",
-    "value": 0.016200000000000003,
-    "note": "estimate"
+    "value": 0.0158,
+    "note": ""
   },
   {
     "date": "2023-05-31",
     "value": 0.0165,
-    "note": "estimate"
+    "note": ""
   },
   {
     "date": "2023-04-30",
     "value": 0.0166,
-    "note": "estimate"
+    "note": ""
   },
   {
     "date": "2023-03-31",
