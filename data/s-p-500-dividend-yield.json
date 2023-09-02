@@ -1,12 +1,17 @@
 [
   {
-    "date": "2023-08-31",
+    "date": "2023-09-01",
+    "value": 0.0152,
+    "note": "estimate"
+  },
+  {
+    "date": "2023-09-30",
     "value": 0.0152,
     "note": "estimate"
   },
   {
     "date": "2023-08-31",
-    "value": 0.0151,
+    "value": 0.0154,
     "note": "estimate"
   },
   {
