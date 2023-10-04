@@ -1,12 +1,17 @@
 [
   {
-    "date": "2023-10-02",
+    "date": "2023-10-03",
+    "value": 24.14,
+    "note": "estimate"
+  },
+  {
+    "date": "2023-10-01",
     "value": 24.48,
     "note": "estimate"
   },
   {
     "date": "2023-09-01",
-    "value": 25.74,
+    "value": 25.17,
     "note": "estimate"
   },
   {
