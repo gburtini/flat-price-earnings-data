@@ -1,43 +1,48 @@
 [
   {
+    "date": "2023-11-02",
+    "value": 23.85,
+    "note": "estimate"
+  },
+  {
     "date": "2023-11-01",
-    "value": 24.19,
+    "value": 23.62,
     "note": "estimate"
   },
   {
     "date": "2023-10-01",
-    "value": 24.48,
+    "value": 23.59,
     "note": "estimate"
   },
   {
     "date": "2023-09-01",
-    "value": 25.17,
+    "value": 24.36,
     "note": "estimate"
   },
   {
     "date": "2023-08-01",
-    "value": 25.45,
+    "value": 24.62,
     "note": "estimate"
   },
   {
     "date": "2023-07-01",
-    "value": 25.74,
+    "value": 24.91,
     "note": "estimate"
   },
   {
     "date": "2023-06-01",
-    "value": 24.81,
-    "note": "estimate"
+    "value": 24.01,
+    "note": ""
   },
   {
     "date": "2023-05-01",
-    "value": 23.67,
-    "note": "estimate"
+    "value": 23.15,
+    "note": ""
   },
   {
     "date": "2023-04-01",
-    "value": 23.53,
-    "note": "estimate"
+    "value": 23.27,
+    "note": ""
   },
   {
     "date": "2023-03-01",
