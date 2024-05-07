@@ -1,6 +1,11 @@
 [
   {
-    "date": "2024-05-03",
+    "date": "2024-05-06",
+    "value": null,
+    "note": ""
+  },
+  {
+    "date": "2024-05-01",
     "value": null,
     "note": ""
   },
@@ -26,17 +31,17 @@
   },
   {
     "date": "2023-12-01",
-    "value": null,
+    "value": 24.35,
     "note": ""
   },
   {
     "date": "2023-11-01",
-    "value": null,
+    "value": 23.51,
     "note": ""
   },
   {
     "date": "2023-10-01",
-    "value": null,
+    "value": 22.78,
     "note": ""
   },
   {
