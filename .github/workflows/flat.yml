@@ -16,33 +16,33 @@ jobs:
         with:
           deno-version: v1.34.x
       - name: Check out repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Fetch data (s-p-500-pe)
-        uses: githubocto/flat@v3
+        uses: githubocto/flat@v4
         with:
           http_url: https://www.multpl.com/s-p-500-pe-ratio/table/by-month
           downloaded_filename: s-p-500-pe-by-month.html
           postprocess: ./src/postprocessing.ts
       - name: Fetch data (shiller-pe)
-        uses: githubocto/flat@v3
+        uses: githubocto/flat@v4
         with:
           http_url: https://www.multpl.com/shiller-pe/table/by-month
           downloaded_filename: shiller-pe-by-month.html
           postprocess: ./src/postprocessing.ts
       - name: Fetch data (10-year-treasury-rate)
-        uses: githubocto/flat@v3
+        uses: githubocto/flat@v4
         with:
           http_url: https://www.multpl.com/10-year-treasury-rate/table/by-month
           downloaded_filename: 10-year-treasury-by-month.html
           postprocess: ./src/postprocessing.ts
       - name: Fetch data (s-p-500-dividend-yield)
-        uses: githubocto/flat@v3
+        uses: githubocto/flat@v4
         with:
           http_url: https://www.multpl.com/s-p-500-dividend-yield/table/by-month
           downloaded_filename: s-p-500-dividend-yield.html
           postprocess: ./src/postprocessing.ts
       - name: Fetch data (s-p-500-earnings)
-        uses: githubocto/flat@v3
+        uses: githubocto/flat@v4
         with:
           http_url: https://www.multpl.com/s-p-500-earnings/table/by-month
           downloaded_filename: s-p-500-earnings.html
