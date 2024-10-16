@@ -1,22 +1,27 @@
 [
   {
-    "date": "2024-10-14",
+    "date": "2024-10-15",
+    "value": null,
+    "note": ""
+  },
+  {
+    "date": "2024-10-31",
     "value": null,
     "note": ""
   },
   {
     "date": "2024-09-30",
-    "value": null,
+    "value": 0.0131,
     "note": ""
   },
   {
     "date": "2024-08-31",
-    "value": null,
+    "value": 0.013300000000000001,
     "note": ""
   },
   {
     "date": "2024-07-31",
-    "value": null,
+    "value": 0.0131,
     "note": ""
   },
   {
