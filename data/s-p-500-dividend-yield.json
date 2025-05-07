@@ -1,6 +1,11 @@
 [
   {
-    "date": "2025-05-05",
+    "date": "2025-05-06",
+    "value": null,
+    "note": ""
+  },
+  {
+    "date": "2025-05-31",
     "value": null,
     "note": ""
   },
@@ -11,17 +16,17 @@
   },
   {
     "date": "2025-03-31",
-    "value": null,
+    "value": 0.0134,
     "note": ""
   },
   {
     "date": "2025-02-28",
-    "value": null,
+    "value": 0.0125,
     "note": ""
   },
   {
     "date": "2025-01-31",
-    "value": null,
+    "value": 0.0126,
     "note": ""
   },
   {
