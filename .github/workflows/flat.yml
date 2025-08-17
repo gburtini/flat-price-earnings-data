@@ -1,12 +1,13 @@
 name: data
-on:
-  schedule:
-    - cron: 0 0 * * *
-  workflow_dispatch: {}
-  push:
-    paths:
-      - .github/workflows/flat.yml
-      - ./src/postprocessing.ts
+# on:
+#   schedule:
+#     - cron: 0 0 * * *
+#   workflow_dispatch: {}
+#   push:
+#     paths:
+#       - .github/workflows/flat.yml
+#       - ./src/postprocessing.ts
+on: workflow_call
 jobs:
   scheduled:
     runs-on: ubuntu-latest
